@@ -1,0 +1,14 @@
+{
+  "name": "spliturl",
+  "version": "1.0.0",
+  "description": "拆分url为纯url,将query参数攒成一个Object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ntyang",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
