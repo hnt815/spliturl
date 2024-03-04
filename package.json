@@ -1,11 +1,24 @@
 {
   "name": "spliturl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "拆分url为纯url,将query参数攒成一个Object",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnt815/spliturl.git"
+  },
+  "keywords": [
+    "amount",
+    "yuan",
+    "fen"
+  ],
+  "bugs": {
+    "url": "https://github.com/hnt815/spliturl/issues"
+  },
+  "homepage": "https://github.com/hnt815/spliturl#readme",
   "author": "ntyang",
   "license": "ISC",
   "dependencies": {
