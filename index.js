@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import _ from 'lodash'
 const tools = {
      isNotEmptyString (obj) {
         return typeof (obj) === "string" && obj !== "";
@@ -38,6 +39,7 @@ export default function splitUrl(url){
       params: {}
     };
     if (tools.isNotEmptyString(url)) {
+      url = _.trim(url)
       let hash = '';
       if (url.indexOf("#") > -1) {
         hash = url.substring(url.indexOf("#") + 1);
