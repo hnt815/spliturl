@@ -1,6 +1,6 @@
 {
   "name": "spliturl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "拆分url为纯url,将query参数攒成一个Object",
   "main": "index.js",
   "scripts": {
